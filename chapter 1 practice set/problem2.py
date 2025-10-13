@@ -1,1 +1,0 @@
-# go to terminal click python
