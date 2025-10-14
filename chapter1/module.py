@@ -1,8 +1,9 @@
 import pyjokes
-# print("printing jokes ....")
+# print("printing jokes.....")
+#this prints a rndom joke
 joke = pyjokes.get_joke()
 print(joke)
 """
 so thanks that 
-wa my firsf python programm
+was my first python program
 """
