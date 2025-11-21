@@ -1,0 +1,16 @@
+
+with open("log.txt") as f:
+    lines = f.readlines()
+
+lineno = 1
+for line in lines:
+    if("python" in line):
+       print(f"yes pyhton is present. Line no: {lineno}")
+       break
+    lineno = lineno + 1
+    
+
+else:
+    print("No python is not present")
+
+f.close()
